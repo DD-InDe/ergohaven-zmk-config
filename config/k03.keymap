@@ -64,6 +64,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        caps-word {
+            bindings = <&caps_word>;
+            key-positions = <36 49>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
